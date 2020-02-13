@@ -3,17 +3,25 @@
     "version": "0.16.0",
     "description": "The missing payment layer for HTTP. DashPay handles x402 and MPP payment challenges with user-authorized stablecoin signing.",
     "bin": {
-        "dashpay": "build/dashpay"
+        "dashpay": "./build/dashpay"
     },
+    "main": "./build/dashpay",
+    "files": [
+        "build/dashpay",
+        "README.md",
+        "LICENSE",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md"
+    ],
     "scripts": {
         "install": "cmake --install .",
-        "prebuild": "cmake -B build -S cpp",
+        "prebuild": "cmake -B build -S cpp -DCMAKE_BUILD_TYPE=Release",
         "build": "cmake --build build --config Release",
         "test": "ctest --test-dir build"
     },
     "keywords": [
         "payment",
-        "solana",
+        "dashpay",
         "stablecoin",
         "x402",
         "mpp",
@@ -22,13 +30,13 @@
     ],
     "author": "DashPay",
     "license": "MIT",
-    "homepage": "https://github.com/dashpay-org/dashpay#readme",
+    "homepage": "https://github.com/Hexicidals/dashpay#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dashpay-org/dashpay.git"
+        "url": "git+https://github.com/Hexicidals/dashpay.git"
     },
     "bugs": {
-        "url": "https://github.com/dashpay-org/dashpay/issues"
+        "url": "https://github.com/Hexicidals/dashpay/issues"
     },
     "os": [
         "darwin",

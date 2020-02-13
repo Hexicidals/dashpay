@@ -1,16 +1,15 @@
 #pragma once
 
-#include <cstdint>
+#include <functional>
 #include <memory>
 #include <string>
-#include <string_view>
 #include <vector>
 
 #include "dashpay/error.hpp"
 
 namespace dashpay::pdb {
 
-enum class PdbEvent : uint8_t {
+enum class PdbEventType : uint8_t {
     RequestStart,
     HeadersSent,
     ChallengeReceived,
@@ -42,6 +41,8 @@ struct PdbSession {
     std::vector<PdbRequest> requests;
     std::vector<PdbResponse> responses;
     std::string protocol; // "MPP" or "x402"
+
+    void add_event(PdbEventType type, std::string_view detail = "");
 };
 
 class PaymentDebugger {
@@ -49,18 +50,20 @@ public:
     PaymentDebugger();
 
     void start_session(std::string_view id);
-    void record_request(const PdbRequest& request);
-    void record_response(const PdbResponse& response);
     void end_session();
 
-    [[nodiscard]] PdbSession* current_session() const;
-    [[nodiscard]] std::string generate_sequence_diagram(const PdbSession& session) const;
+    void record_request(const PdbRequest& request);
+    void record_response(const PdbResponse& response);
 
+    [[nodiscard]] PdbSession* current_session() const;
+
+    [[nodiscard]] std::string generate_sequence_diagram(const PdbSession& session) const;
     [[nodiscard]] std::string to_html(const PdbSession& session) const;
     [[nodiscard]] std::string to_mermaid(const PdbSession& session) const;
 
 private:
     std::unique_ptr<PdbSession> current_session_;
+    std::mutex session_mutex_;
     std::vector<std::unique_ptr<PdbSession>> history_;
 };
 
@@ -70,6 +73,7 @@ public:
 
     void start();
     void stop();
+
     [[nodiscard]] bool is_running() const;
 
 private:
