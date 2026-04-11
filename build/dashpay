@@ -1,0 +1,7 @@
+#!/bin/bash
+# Placeholder stub for DashPay CLI
+# This will be replaced by the actual compiled binary
+
+echo "DashPay CLI v0.16.0"
+echo "This is a placeholder. The C++ implementation is in progress."
+echo "See https://github.com/Hexicidals/dashpay for updates"
