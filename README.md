@@ -149,3 +149,4 @@ This grants `dashpay` the right to prompt for your password or fingerprint befor
 MIT — see [LICENSE](./LICENSE).
 
 Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https://dashpay.io/tos)
+// Improvement: Refactor crypto module for better abstraction
