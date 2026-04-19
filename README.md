@@ -150,3 +150,4 @@ MIT — see [LICENSE](./LICENSE).
 
 Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https://dashpay.io/tos)
 // Improvement: Refactor crypto module for better abstraction
+// Improvement: Improve error messages in config module
