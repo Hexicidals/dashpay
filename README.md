@@ -152,3 +152,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Refactor crypto module for better abstraction
 // Improvement: Improve error messages in config module
 // Improvement: Add more test cases for URL parsing
+// Improvement: Optimize MPP message parsing
