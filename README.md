@@ -153,3 +153,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve error messages in config module
 // Improvement: Add more test cases for URL parsing
 // Improvement: Optimize MPP message parsing
+// Improvement: Add input validation to API client
