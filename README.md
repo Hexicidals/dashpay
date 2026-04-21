@@ -157,3 +157,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve session persistence
 // Improvement: Add timeout handling to RPC calls
 // Improvement: Refactor transaction validation logic
+// Improvement: Add QR code error handling
