@@ -163,3 +163,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve MCP server error responses
 // Improvement: Add CLI color output
 // Improvement: Improve CLI help text
+// Improvement: Add CLI autocomplete support
