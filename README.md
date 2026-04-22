@@ -161,3 +161,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve keystore abstraction layer
 // Improvement: Add support for custom RPC endpoints
 // Improvement: Improve MCP server error responses
+// Improvement: Add CLI color output
