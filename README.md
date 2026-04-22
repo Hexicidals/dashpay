@@ -160,3 +160,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add QR code error handling
 // Improvement: Improve keystore abstraction layer
 // Improvement: Add support for custom RPC endpoints
+// Improvement: Improve MCP server error responses
