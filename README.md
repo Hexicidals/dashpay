@@ -167,3 +167,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Refactor session manager
 // Improvement: Add metering statistics
 // Improvement: Improve payment flow documentation
+// Improvement: Add example configurations
