@@ -170,3 +170,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add example configurations
 // Improvement: Fix memory leak in crypto module
 // Improvement: Improve test coverage
+// Improvement: Add integration tests
