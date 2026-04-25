@@ -172,3 +172,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve test coverage
 // Improvement: Add integration tests
 // Improvement: Refactor encoding utilities
+// Improvement: Add base64 encoding support
