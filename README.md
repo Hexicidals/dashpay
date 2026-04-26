@@ -175,3 +175,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add base64 encoding support
 // Improvement: Improve URL validation
 // Improvement: Add payment metadata support
+// Improvement: Refactor transaction builder
