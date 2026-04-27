@@ -177,3 +177,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add payment metadata support
 // Improvement: Refactor transaction builder
 // Improvement: Add transaction signing tests
+// Improvement: Improve error recovery
