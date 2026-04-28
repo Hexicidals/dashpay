@@ -181,3 +181,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add retry logic to API calls
 // Improvement: Improve keystore security
 // Improvement: Add key rotation support
+// Improvement: Refactor PDB session handling
