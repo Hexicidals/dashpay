@@ -187,3 +187,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Refactor MCP protocol handling
 // Improvement: Add support for multiple connections
 // Improvement: Improve CLI argument parsing
+// Improvement: Add command history
