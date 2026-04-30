@@ -188,3 +188,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add support for multiple connections
 // Improvement: Improve CLI argument parsing
 // Improvement: Add command history
+// Improvement: Improve payment confirmation flow
