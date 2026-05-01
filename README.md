@@ -191,3 +191,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve payment confirmation flow
 // Improvement: Add progress indicators
 // Improvement: Refactor config validation
+// Improvement: Add environment variable support
