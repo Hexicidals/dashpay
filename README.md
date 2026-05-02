@@ -195,3 +195,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve crypto key management
 // Improvement: Add key derivation improvements
 // Improvement: Refactor RPC client
+// Improvement: Add batch request support
