@@ -197,3 +197,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Refactor RPC client
 // Improvement: Add batch request support
 // Improvement: Improve error handling in transactions
+// Improvement: Add transaction status tracking
