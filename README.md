@@ -199,3 +199,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve error handling in transactions
 // Improvement: Add transaction status tracking
 // Improvement: Refactor QR code generation
+// Improvement: Add custom QR code styling
