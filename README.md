@@ -203,3 +203,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve payment metadata handling
 // Improvement: Add support for custom labels
 // Improvement: Refactor MPP protocol
+// Improvement: Add protocol version negotiation
