@@ -206,3 +206,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add protocol version negotiation
 // Improvement: Improve x402 challenge handling
 // Improvement: Add support for multiple payment methods
+// Improvement: Refactor account management
