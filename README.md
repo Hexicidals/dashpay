@@ -210,3 +210,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add account import/export
 // Improvement: Improve balance tracking
 // Improvement: Add transaction history
+// Improvement: Add payment timeout configuration
