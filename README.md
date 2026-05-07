@@ -214,3 +214,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Improve error reporting in CLI
 // Improvement: Add support for custom payment callbacks
 // Improvement: Refactor payment flow state machine
+// Improvement: Add payment history export feature
