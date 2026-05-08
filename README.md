@@ -217,3 +217,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add payment history export feature
 // Improvement: Improve transaction validation performance
 // Improvement: Add support for recurring payments
+// Improvement: Refactor key storage layer
