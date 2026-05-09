@@ -221,3 +221,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add payment analytics tracking
 // Improvement: Improve QR code error correction
 // Improvement: Add support for multiple wallets
+// Improvement: Refactor RPC response handling
