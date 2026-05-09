@@ -219,3 +219,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add support for recurring payments
 // Improvement: Refactor key storage layer
 // Improvement: Add payment analytics tracking
+// Improvement: Improve QR code error correction
