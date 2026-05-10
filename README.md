@@ -225,3 +225,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add payment notification support
 // Improvement: Improve session cleanup logic
 // Improvement: Add payment template system
+// Improvement: Refactor encoding layer
