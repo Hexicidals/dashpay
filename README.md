@@ -227,3 +227,4 @@ Subject to the foregoing, Terms of Service available at [dashpay.io/tos](https:/
 // Improvement: Add payment template system
 // Improvement: Refactor encoding layer
 // Improvement: Add support for custom payment schemes
+// Improvement: Improve API rate limiting
